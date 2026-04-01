@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="1.0">
+    <disciplina>POS</disciplina>
+
+    <professor>
+        <nome>Mauricio Freire</nome>
+        <matrícula>536784</matrícula>
+    </professor>
+
+    <turma>Infoweb 3M</turma>
+    <data>2026-08-21</data>
+
+    <questões>
+        <questão>
+            <enunciado>Qual é o significado da sigla POS?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+                <alternativa correta="sim">Programação Orientada a Serviços</alternativa>
+                <alternativa correta="nao">Programação Orientada a Sistemas</alternativa>
+                <alternativa correta="nao">Processo Operacional de Software</alternativa>
+                <alternativa correta="nao">Plataforma Operacional de Serviços</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual é o principal objetivo da Programação Orientada a Serviços?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Usar apenas programação orientada a objetos</alternativa>
+                <alternativa correta="nao">Criar programas muito rápidos e leves</alternativa>
+                <alternativa correta="sim">Dividir o sistema em pequenos serviços independentes e reutilizáveis</alternativa>
+                <alternativa correta="nao">Evitar o uso de redes na comunicação entre sistemas</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Em POS, os serviços se comunicam principalmente por meio de:</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+                <alternativa correta="sim">Requisições pela rede usando protocolo como HTTP</alternativa>
+                <alternativa correta="nao">Chamadas diretas de memória (RAM)</alternativa>
+                <alternativa correta="nao">Arquivos locais compartilhados</alternativa>
+                <alternativa correta="nao">Cabos USB entre servidores</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual das opções abaixo é uma caracteristícas da POS?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Sistema funcionando apenas em um único computador.</alternativa>
+                <alternativa correta="nao">Baixa reutilização</alternativa>
+                <alternativa correta="nao">Forte depência entre os módulos</alternativa>
+                <alternativa correta="sim">Serviços independentes que podem ser usados por diferentes sistemas.</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual a tecnologia é comumente utilizada para implementar a comunicação entre serviços em POS?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+                <alternativa correta="sim">API Web (REST)</alternativa>
+                <alternativa correta="nao">USB</alternativa>
+                <alternativa correta="nao">Bluetooth</alternativa>
+                <alternativa correta="nao">HDMI</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
