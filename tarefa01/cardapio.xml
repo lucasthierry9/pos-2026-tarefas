@@ -1,1 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+<cardapio>
+    <prato id="p1">
+        <nome>Frango Grelhado com Arroz e Legumes</nome>
+        <descricao>Prato leve e equilibrado com frango suculento e legumes salteados.</descricao>
+        <ingredientes>
+            <ingrediente>Peito de frango</ingrediente>
+            <ingrediente>Arroz branco</ingrediente>
+            <ingrediente>Cenoura</ingrediente>
+            <ingrediente>Brócolis</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 24.00</preco>
+        <calorias>450</calorias>
+        <tempoPreparo>25 min</tempoPreparo>
+    </prato>
+    <prato id="p2">
+        <nome>Omelete de Queijo e Presunto</nome>
+        <descricao>Omelete macia recheada com queijo derretido e presunto</descricao>
+        <ingredientes>
+            <ingrediente>Ovos</ingrediente>
+            <ingrediente>Queijo mussarela</ingrediente>
+            <ingrediente>Presunto</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 5.00</preco>
+        <calorias>300</calorias>
+        <tempoPreparo>10 min</tempoPreparo>
+    </prato>
+    <prato id="p3">
+        <nome>Macarrão ao Molho de Tomate</nome>
+        <descricao>Massa clássica com molho caseiro de tomate temperado.</descricao>
+        <ingredientes>
+            <ingrediente>Macarrão</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Cebola</ingrediente>
+        </ingredientes>
+        <preco moeda="USD">14.00</preco>
+        <calorias>350</calorias>
+        <tempoPreparo>10 min</tempoPreparo>
+    </prato>
+    <prato id="p4">
+        <nome>Hambúrguer Artesanal com Batata</nome>
+        <descricao>Hambúrguer suculento servido com batatas fritas crocantes</descricao>
+        <ingredientes>
+            <ingrediente>Carne moída</ingrediente>
+            <ingrediente>Pão</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+            <ingrediente>Batata</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 27.00</preco>
+        <calorias>700</calorias>
+        <tempoPreparo>30 min</tempoPreparo>
+    </prato>
+
+    <prato id="p5">
+        <nome>Arroz com Carne Moída</nome>
+        <descricao>Prato caseiro clássico com carne bem temperada e arroz soltinho</descricao>
+        <ingredientes>
+            <ingrediente>Arroz</ingrediente>
+            <ingrediente>Carne moída</ingrediente>
+            <ingrediente>Cebola</ingrediente>
+        </ingredientes>
+        <preco moeda="USD">19.00</preco>
+        <calorias>550</calorias>
+        <tempoPreparo>25 min</tempoPreparo>
+    </prato>
+</cardapio>
