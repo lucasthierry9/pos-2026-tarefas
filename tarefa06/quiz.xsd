@@ -1,0 +1,69 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:a="http://quiz.org"
+        targetNamespace="http://quiz.org"
+        elementFormDefault="qualified">
+        <element name="quiz">
+            <complexType>
+                <sequence>
+                    <element ref="a:disciplina"/>
+                    <element ref="a:professor"/>
+                    <element ref="a:turma"/>
+                    <element ref="a:data"/>
+                    <element ref="a:questões" minOccurs="1" maxOccurs="unbounded"/>
+                </sequence>
+            </complexType>
+        </element>
+
+        <element name="professor">
+            <complexType>
+                <sequence>
+                    <element ref="a:nome"/>
+                    <element ref="a:matrícula"/>
+                </sequence>
+            </complexType>
+        </element>
+
+        <complexType name="questões">
+            <sequence>
+                <element ref="a:questão" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+
+        <element name="questão">
+            <complexType>
+                <sequence>
+                    <element ref="a:enunciado"/>
+                    <element ref="a:pontuação"/>
+                    <element ref="a:alternativas"/>
+                </sequence>
+            </complexType>
+        </element>
+
+        <element name="alternativas">
+            <complexType>
+                <sequence>
+                    <element ref="a:alternativa" minOccurs="1" maxOccurs="unbounded"/>
+                </sequence>
+            </complexType>
+        </element>
+
+        <element name="alternativa">
+            <complexType>
+                <simpleContent>
+                    <extension base="string">
+                        <attribute name="correta" type="string" use="required"/>
+                    </extension>
+                </simpleContent>
+            </complexType>
+        </element>
+
+        <element name="disciplina" type="string"/>
+        <element name="nome" type="string"/>
+        <element name="matrícula" type="string"/>
+        <element name="turma" type="string"/>
+        <element name="data" type="string"/>
+        <element name="questões" type="a:questões"/>
+        <element name="enunciado" type="string"/>
+        <element name="pontuação" type="integer"/>
+</schema>
+        
