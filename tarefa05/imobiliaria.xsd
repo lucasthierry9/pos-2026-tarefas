@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:a="http://imobiliaria.org"
+        targetNamespace="http://imobiliaria.org"
+        elementFormDefault="qualified">
+        <element name="imobiliaria">
+            <complexType>
+                <sequence>
+                    <element ref="a:imovel" minOccurs="1" maxOccurs="unbounded"/>
+                </sequence>
+            </complexType>
+        </element>
+
+        <complexType name="imovel">
+            <sequence>
+                <element ref="a:descricao"/>
+                <element ref="a:proprietario"/>
+                <element ref="a:endereco"/>
+                <element ref="a:caracteristicas"/>
+                <element ref="a:valor"/>
+            </sequence>
+        </complexType>
+
+        <element name="proprietario">
+            <complexType>
+                <sequence>
+                    <element ref="a:nome"/>
+                    <choice minOccurs="0" maxOccurs="unbounded">
+                        <element ref="a:email"/>
+                        <element ref="a:telefone"/>
+                    </choice>
+                </sequence>
+            </complexType>
+        </element>
+
+        <element name="endereco">
+            <complexType>
+                <sequence>
+                    <element ref="a:rua"/>
+                    <element ref="a:bairro"/>
+                    <element ref="a:cidade"/>
+                    <element ref="a:número" minOccurs="0"/>
+                </sequence>
+            </complexType>
+        </element>
+
+        <element name="caracteristicas">
+            <complexType>
+                <sequence>
+                    <element ref="a:tamanho"/>
+                    <element ref="a:numQuartos"/>
+                    <element ref="a:numBanheiros"/>
+                </sequence>
+            </complexType>
+        </element>
+
+        <element name="imovel" type="a:imovel"/>
+        <element name="descricao" type="string"/>
+        <element name="nome" type="string"/>
+        <element name="email" type="string"/>
+        <element name="telefone" type="string"/>
+        <element name="rua" type="string"/>
+        <element name="bairro" type="string"/>
+        <element name="cidade" type="string"/>
+        <element name="número" type="integer"/>
+        <element name="tamanho" type="decimal"/>
+        <element name="numQuartos" type="integer"/>
+        <element name="numBanheiros" type="integer"/>
+        <element name="valor" type="string"/>
+</schema>
+
+
+        

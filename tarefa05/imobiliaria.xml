@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imobiliaria xmlns="http://imobiliaria.org" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://imobiliaria.org imobiliaria.xsd">
+    <imovel>
+        <descricao>Apartamento moderno com vista para o rio</descricao>
+        <proprietario>
+            <nome>Mariana Silva</nome>
+            <email>mariana.silva@email.com</email>
+            <telefone>84991234567</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Beira Mar</rua>
+            <bairro>Ponta Negra</bairro>
+            <cidade>Natal</cidade>
+            <número>1200</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>85.00</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>450000</valor>
+    </imovel>
+    <imovel>
+        <descricao>Casa com piscina</descricao>
+        <proprietario>
+            <nome>João Pereira</nome>
+            <email>joao.pereira@email.com</email>
+            <telefone>84999887766</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Acácias</rua>
+            <bairro>Lagoa Nova</bairro>
+            <cidade>Natal</cidade>
+            <número>350</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>220</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor></valor>
+    </imovel>
+    <imovel>
+        <descricao>Casa térrea aconchegante com jardim amplo</descricao>
+        <proprietario>
+            <nome>Lucas Almeida</nome>
+            <email>lucas.almeida@email.com</email>
+            <telefone>84998112233</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Neópolis</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>140.00</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>380000</valor>
+    </imovel>
+    <imovel>
+        <descricao>Kitnet compacta ideal para estudantes</descricao>
+        <proprietario>
+            <nome>Carla Mendes</nome>
+            <email>carla.mendes@email.com</email>
+            <telefone>84997654321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Sol</rua>
+            <bairro>Centro</bairro>
+            <cidade>Natal</cidade>
+            <número>45</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>35.00</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>150000</valor>
+    </imovel>
+    <imovel>
+        <descricao>Casa duplex em condomínio fechado</descricao>
+        <proprietario>
+            <nome>Rafael Costa</nome>
+            <telefone>84993456789</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Palmeiras</rua>
+            <bairro>Candelária</bairro>
+            <cidade>Natal</cidade>
+            <número>890</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>160.00</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>520000</valor>
+    </imovel>
+    <imovel>
+        <descricao>Apartamento de luxo com varanda gourmet</descricao>
+        <proprietario>
+            <nome>Fernanda Oliveira</nome>
+            <email>fernanda.oliveira@email.com</email>
+            <telefone>84996543210</telefone>
+            <telefone>84998112233</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Engenheiro Roberto Freire</rua>
+            <bairro>Capim Macio</bairro>
+            <cidade>Natal</cidade>
+            <número>2100</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>130.00</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>690000</valor>
+    </imovel>
+</imobiliaria>
