@@ -1,0 +1,83 @@
+{
+  "cardapio": {
+    "prato": [
+      {
+        "id": 1,
+        "nome": "Frango Grelhado com Arroz e Legumes",
+        "descricao": "Prato leve e equilibrado com frango suculento e alegumes salteados.",
+        "ingredientes": {
+          "ingrediente": [
+            "Peito de frango",
+            "Arroz branco",
+            "Cenoura",
+            "Brócolis"
+          ]
+        },
+        "preco": 24.00,
+        "calorias": 450,
+        "tempoPreparo": "25 min"
+      },
+      {
+        "id": 2,
+        "nome": "Omelete de Queijo e Presunto",
+        "descricao": "Omelete macia recheada com queijo derretido e presunto",
+        "ingredientes": {
+          "ingrediente": [
+            "Ovos",
+            "Queijo mussarela",
+            "Presunto"
+          ]
+        },
+        "preco": 5.00,
+        "calorias": 300,
+        "tempoPreparo": "10 min"
+      },
+      {
+        "id": 3,
+        "nome": "Macarrão ao Molho de Tomate",
+        "descricao": "Massa clássica com molho caseiro de tomate temperado.",
+        "ingredientes": {
+          "ingrediente": [
+            "Macarrão",
+            "Tomate",
+            "Cebola"
+          ]
+        },
+        "preco": 14.00,
+        "calorias": 350,
+        "tempoPreparo": "10 min"
+      },
+      {
+        "id": 4,
+        "nome": "Hambúrguer Artesanal com Batata",
+        "descricao": "Hambúrguer suculento servido com batatas fritas crocantes",
+        "ingredientes": {
+          "ingrediente": [
+            "Carne moída",
+            "Pão",
+            "Queijo",
+            "Batata"
+          ]
+        },
+        "preco": 27.00,
+        "calorias": 700,
+        "tempoPreparo": "30 min"
+      },
+      {
+        "id": 5,
+        "nome": "Arroz com Carne Moída",
+        "descricao": "Prato caseiro clássico com carne bem temperada e arroz soltinho",
+        "ingredientes": {
+          "ingrediente": [
+            "Arroz",
+            "Carne moída",
+            "Cebola"
+          ]
+        },
+        "preco": 19.00,
+        "calorias": 550,
+        "tempoPreparo": "25 min"
+      }
+    ]
+  }
+}

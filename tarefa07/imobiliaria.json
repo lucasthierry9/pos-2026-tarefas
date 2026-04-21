@@ -1,0 +1,124 @@
+{
+  "imobiliaria": {
+    "imovel": [
+      {
+        "descricao": "Apartamento moderno com vista para o rio",
+        "proprietario": {
+          "nome": "Mariana Silva",
+          "email": ["mariana.silva@email.com"],
+          "telefone": ["84991234567"]
+        },
+        "endereco": {
+          "rua": "Avenida Beira Mar",
+          "bairro": "Ponta Negra",
+          "cidade": "Natal",
+          "numero": 1200
+        },
+        "caracteristicas": {
+          "tamanho": 85.00,
+          "numQuartos": 2,
+          "numBanheiros": 2
+        },
+        "valor": 450000
+      },
+      {
+        "descricao": "Casa com piscina",
+        "proprietario": {
+          "nome": "João Pereira",
+          "email": ["joao.pereira@email.com"],
+          "telefone": ["84999887766"]
+        },
+        "endereco": {
+          "rua": "Rua das Acácias",
+          "bairro": "Lagoa Nova",
+          "cidade": "Natal",
+          "numero": 350
+        },
+        "caracteristicas": {
+          "tamanho": 220,
+          "numQuartos": 4,
+          "numBanheiros": 3
+        },
+        "valor": null
+      },
+      {
+        "descricao": "Casa térrea aconchegante com jardim amplo",
+        "proprietario": {
+          "nome": "Lucas Almeida",
+          "email": ["lucas.almeida@email.com"],
+          "telefone": ["84998112233"]
+        },
+        "endereco": {
+          "rua": "Rua das Flores",
+          "bairro": "Neópolis",
+          "cidade": "Natal"
+        },
+        "caracteristicas": {
+          "tamanho": 140.00,
+          "numQuartos": 3,
+          "numBanheiros": 2
+        },
+        "valor": 380000
+      },
+      {
+        "descricao": "Kitnet compacta ideal para estudantes",
+        "proprietario": {
+          "nome": "Carla Mendes",
+          "email": ["carla.mendes@email.com"],
+          "telefone": ["84997654321"]
+        },
+        "endereco": {
+          "rua": "Rua do Sol",
+          "bairro": "Centro",
+          "cidade": "Natal",
+          "numero": 45
+        },
+        "caracteristicas": {
+          "tamanho": 35.00,
+          "numQuartos": 1,
+          "numBanheiros": 1
+        },
+        "valor": 150000
+      },
+      {
+        "descricao": "Casa duplex em condomínio fechado",
+        "proprietario": {
+          "nome": "Rafael Costa",
+          "telefone": ["84993456789"]
+        },
+        "endereco": {
+          "rua": "Rua das Palmeiras",
+          "bairro": "Candelária",
+          "cidade": "Natal",
+          "numero": 890
+        },
+        "caracteristicas": {
+          "tamanho": 160.00,
+          "numQuartos": 3,
+          "numBanheiros": 3
+        },
+        "valor": 520000
+      },
+      {
+        "descricao": "Apartamento de luxo com varanda gourmet",
+        "proprietario": {
+          "nome": "Fernanda Oliveira",
+          "email": ["fernanda.oliveira@email.com"],
+          "telefone": ["84996543210", "84998112233"]
+        },
+        "endereco": {
+          "rua": "Avenida Engenheiro Roberto Freire",
+          "bairro": "Capim Macio",
+          "cidade": "Natal",
+          "numero": 2100
+        },
+        "caracteristicas": {
+          "tamanho": 130.00,
+          "numQuartos": 3,
+          "numBanheiros": 2
+        },
+        "valor": 690000
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "quiz": {
+    "disciplina": "POS",
+    "professor": {
+      "nome": "Mauricio Freire",
+      "matricula": "536784"
+    },
+    "turma": "Infoweb 3M",
+    "data": "2026-08-21",
+    "questoes": {
+      "questao": [
+        {
+          "enunciado": "Qual é o significado da sigla POS?",
+          "pontuacao": 2,
+          "alternativas": {
+            "alternativa": [
+              {
+                "correta": "sim",
+                "texto": "Programação Orientada a Serviços"
+              },
+              {
+                "correta": "nao",
+                "texto": "Programação Orientada a Sistemas"
+              },
+              {
+                "correta": "nao",
+                "texto": "Processo Operacional de Software"
+              },
+              {
+                "correta": "nao",
+                "texto": "Plataforma Operacional de Serviços"
+              }
+            ]
+          }
+        },
+        {
+          "enunciado": "Qual é o principal objetivo da Programação Orientada a Serviços?",
+          "pontuacao": 2,
+          "alternativas": {
+            "alternativa": [
+              {
+                "correta": "nao",
+                "texto": "Usar apenas programação orientada a objetos"
+              },
+              {
+                "correta": "nao",
+                "texto": "Criar programas muito rápidos e leves"
+              },
+              {
+                "correta": "sim",
+                "texto": "Dividir o sistema em pequenos serviços independentes e reutilizáveis"
+              },
+              {
+                "correta": "nao",
+                "texto": "Evitar o uso de redes na comunicação entre sistemas"
+              }
+            ]
+          }
+        },
+        {
+          "enunciado": "Em POS, os serviços se comunicam principalmente por meio de:",
+          "pontuacao": 2,
+          "alternativas": {
+            "alternativa": [
+              {
+                "correta": "sim",
+                "texto": "Requisições pela rede usando protocolo como HTTP"
+              },
+              {
+                "correta": "nao",
+                "texto": "Chamadas diretas de memória (RAM)"
+              },
+              {
+                "correta": "nao",
+                "texto": "Arquivos locais compartilhados"
+              },
+              {
+                "correta": "nao",
+                "texto": "Cabos USB entre servidores"
+              }
+            ]
+          }
+        },
+        {
+          "enunciado": "Qual das opções abaixo é uma caracteristícas da POS?",
+          "pontuacao": 2,
+          "alternativas": {
+            "alternativa": [
+              {
+                "correta": "nao",
+                "texto": "Sistema funcionando apenas em um único computador."
+              },
+              {
+                "correta": "nao",
+                "texto": "Baixa reutilização"
+              },
+              {
+                "correta": "nao",
+                "texto": "Forte depência entre os módulos"
+              },
+              {
+                "correta": "sim",
+                "texto": "Serviços independentes que podem ser usados por diferentes sistemas."
+              }
+            ]
+          }
+        },
+        {
+          "enunciado": "Qual a tecnologia é comumente utilizada para implementar a comunicação entre serviços em POS?",
+          "pontuacao": 2,
+          "alternativas": {
+            "alternativa": [
+              {
+                "correta": "sim",
+                "texto": "API Web (REST)"
+              },
+              {
+                "correta": "nao",
+                "texto": "USB"
+              },
+              {
+                "correta": "nao",
+                "texto": "Bluetooth"
+              },
+              {
+                "correta": "nao",
+                "texto": "HDMI"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
