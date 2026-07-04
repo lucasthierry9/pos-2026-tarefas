@@ -1,0 +1,151 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card border-0 shadow-sm mb-4">
+    <div class="card-body d-flex justify-content-between align-items-center">
+
+        <div>
+            <h3 class="fw-bold mb-1">Boletim Escolar</h3>
+            <span class="text-muted">
+                Consulte suas notas, média final e frequência.
+            </span>
+        </div>
+
+        <form class="d-flex gap-2 align-items-end">
+
+            <div>
+                <label class="form-label small text-muted mb-1">
+                    Ano letivo
+                </label>
+
+                <select class="form-select" name="ano">
+
+                    {% for a in range(2023,2027) %}
+
+                    <option
+                        value="{{a}}"
+                        {% if ano|int == a %}
+                        selected
+                        {% endif %}
+                    >
+                        {{a}}
+                    </option>
+
+                    {% endfor %}
+
+                </select>
+            </div>
+
+            <button class="btn btn-primary">
+                Consultar
+            </button>
+
+        </form>
+
+    </div>
+</div>
+
+<div class="row g-4">
+
+    {% for disciplina in boletim %}
+
+    <div class="col-lg-6">
+
+        <div class="card border-0 shadow-sm h-100">
+
+            <div class="card-body">
+
+                <div class="d-flex justify-content-between align-items-start mb-4">
+
+                    <h5 class="fw-bold mb-0">
+                        {{ disciplina.disciplina }}
+                    </h5>
+
+                    {% if disciplina.situacao == "Aprovado" %}
+
+                    <span class="badge bg-success">
+                        {{ disciplina.situacao }}
+                    </span>
+
+                    {% elif disciplina.situacao == "Reprovado" %}
+
+                    <span class="badge bg-danger">
+                        {{ disciplina.situacao }}
+                    </span>
+
+                    {% else %}
+
+                    <span class="badge bg-warning text-dark">
+                        {{ disciplina.situacao }}
+                    </span>
+
+                    {% endif %}
+
+                </div>
+
+                <div class="row text-center mb-4">
+
+                    <div class="col">
+                        <small class="text-muted d-block">N1</small>
+                        <h5>{{ disciplina.nota_etapa_1.nota or "-" }}</h5>
+                    </div>
+
+                    <div class="col">
+                        <small class="text-muted d-block">N2</small>
+                        <h5>{{ disciplina.nota_etapa_2.nota or "-" }}</h5>
+                    </div>
+
+                    <div class="col">
+                        <small class="text-muted d-block">N3</small>
+                        <h5>{{ disciplina.nota_etapa_3.nota or "-" }}</h5>
+                    </div>
+
+                    <div class="col">
+                        <small class="text-muted d-block">N4</small>
+                        <h5>{{ disciplina.nota_etapa_4.nota or "-" }}</h5>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="row text-center">
+
+                    <div class="col-6">
+
+                        <small class="text-muted d-block">
+                            Média Final
+                        </small>
+
+                        <h4 class="fw-bold text-success">
+                            {{ disciplina.media_final_disciplina }}
+                        </h4>
+
+                    </div>
+
+                    <div class="col-6">
+
+                        <small class="text-muted d-block">
+                            Faltas
+                        </small>
+
+                        <h4 class="fw-bold">
+                            {{ disciplina.numero_faltas }}
+                        </h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+{% endblock %}

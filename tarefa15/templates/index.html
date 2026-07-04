@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Login
+{% endblock %}
+
+{% block content %}
+<div class="card p-5">
+  <h1 class="display-5 fw-bold">
+    Cliente SUAP
+  </h1>
+
+  <p class="text-secondary mt-3">
+    Visualize seu perfil acadêmico, consulte seu boletim e acompanhe suas informações utilizando autenticação OAuth do SUAP.
+  </p>
+
+  <a href="/login" class="btn btn-primary btn-lg mt-4 px-5">
+    Entrar com SUAP
+  </a>
+</div>
+{% endblock %}
